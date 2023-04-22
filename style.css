@@ -173,6 +173,56 @@ h3 {
     height: 280px;
   }
 
+  .brbar {
+    margin: 10px;
+    border: 10px groove #ffa500; 
+    border-radius: 10px 50px;
+    height: 280px;
+    width: 220px;
+  }
+
+  .link {
+    color: #8B4513;
+    
+    
+  }
+
+  .link:hover {
+    background-color: rgb(230, 184, 116);
+    color: #F5DEB3;
+  }
+
+  #kommande {
+    display: flex;  
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+    font-size: x-large;
+   
+  }
+  
+  #kommande li {
+  
+    list-style-type:decimal ; 
+    text-align: center;
+    padding: 10px;
+   
+  }
+  
+  
+  #kommande a {
+    display: block; 
+    text-decoration: none;
+    color: #8B4513;
+    
+  }
+  
+  #kommande a:hover {
+    background-color: rgb(230, 184, 116);
+    color: #F5DEB3;
+  }
+
+
   @media screen and (max-width: 1360px)  {
 
     header {
@@ -223,17 +273,25 @@ h3 {
 
     }
 
+    .brbar {
+      margin: 20px;
+    }
+
+    
+
     .col-2 {
       display: flex;
-      
       height: 100%;
       width: 100%;
       margin: 0 auto;
       padding: 0;
      }
+
      .col-2 div {
       padding: 20px;
       }
+
+    
 
       #menu {
         display: flex;
@@ -251,7 +309,25 @@ h3 {
          
           
           }
-   
+
+          #kommande {
+            display: flex;
+            font-weight: 200;
+            font-size: x-large;
+            flex-direction: column;
+            padding: 20px;
+            border: 0px;
+            
+            
+          }
+      
+          #kommande li {
+      
+            padding: 5px;
+           
+          }
+
+        
     
   }
 
@@ -263,6 +339,9 @@ h3 {
       flex-direction: column;
       font-size: xx-large;
     }
+
+   
+ 
   }
 
   @media screen and (max-width: 850px) {
@@ -300,13 +379,24 @@ h3 {
       width: 100%;
       margin: 0 auto;
       
+      
      
      }
+
+     
 
      .badreputation {
       width:50%;
       height: 70%;
       margin: 0 auto 25px;
+      
+     }
+
+     .brbar {
+      width:50%;
+      height: 70%;
+      margin: 0 auto 25px;
+     
       
      }
 
@@ -335,6 +425,10 @@ h3 {
 
       .infotext {
         padding: 0;
+      }
+
+      #kommande {
+        font-size: small;
       }
     
   }
