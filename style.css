@@ -197,7 +197,7 @@ h3 {
     flex-direction: column;
     margin: 20px;
     padding: 10px;
-    font-size: x-large;
+    font-size: large;
    
   }
   
@@ -313,19 +313,15 @@ h3 {
           #kommande {
             display: flex;
             font-weight: 200;
-            font-size: x-large;
+            font-size: large;
             flex-direction: column;
-            padding: 20px;
+            padding: 10px;
             border: 0px;
             
             
           }
       
-          #kommande li {
-      
-            padding: 5px;
-           
-          }
+         
 
         
     
