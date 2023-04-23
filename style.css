@@ -222,6 +222,15 @@ h3 {
     color: #F5DEB3;
   }
 
+  .upcoming {
+    border: 10px groove #ffa500; 
+    border-radius: 10px 50px;
+    padding: 65px;
+    background-color: #F5DEB3; 
+    height: 120px;
+    margin: 20px;
+    
+  }
 
   @media screen and (max-width: 1360px)  {
 
