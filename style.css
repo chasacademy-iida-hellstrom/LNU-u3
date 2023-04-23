@@ -232,6 +232,10 @@ h3 {
     
   }
 
+  .rapport {
+    margin: 15px;
+  }
+
   @media screen and (max-width: 1360px)  {
 
     header {
