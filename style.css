@@ -9,6 +9,7 @@ body {
   }
   
   .container {
+    height:100%;
     width: 80%;
     margin: 0 auto;
     padding: 10px;
@@ -252,6 +253,8 @@ h3 {
 
   @media screen and (max-width: 1360px)  {
 
+
+    
     header {
       display: flex;
       flex-direction: column;
@@ -299,11 +302,12 @@ h3 {
       height: 70%;
 
     }
-
     .brbar {
-      margin: 20px;
+      height:30%;
+      width: 30%;
     }
 
+   
     
 
     .col-2 {
@@ -369,6 +373,8 @@ h3 {
 
   @media screen and (max-width: 850px) {
 
+    
+
     .container {
       height: 100%;
     }
@@ -416,15 +422,20 @@ h3 {
      }
 
      .brbar {
-      width:50%;
-      height: 70%;
-      margin: 0 auto 25px;
-     
+      display: none; 
       
      }
 
     .picdiv {
     margin: 0 auto;
+      
+    }
+
+    .logo1 {
+      width: 100%;
+      
+      margin: 0 auto;
+      border-radius: 10px 50px;
       
     }
 
